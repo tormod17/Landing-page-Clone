@@ -33,6 +33,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
   font-family:roboto;
+  
 }
 ol, ul {
 	list-style: none;
@@ -55,11 +56,16 @@ table {
 /* Navigation Section */
 .top-navigation {
     background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;            
+
+
 }
 .top-navigation > .content {
     margin: 0 auto;
-    width: 970px;
-    height: 70px;
+    width: 70%;
+    height: 20%;
 }
 .top-navigation .logo {
     height: 70px;
@@ -89,12 +95,13 @@ div {
     color: #4c5058;
   font-weight: 600;}
 
-  .top-navigation li a {font-family: 'Roboto', sans-:                 ;serif; 
+  .top-navigation li a {font-family: 'Roboto', sans-:                                               ;serif; 
                           font-size: 16px; 
                           color: #838994; 
                           letter-spacing: 0.03em;
                           list-style:none;
                           text-decoration: none;}
+
 .top-navigation a:hover { color:black;}
     
 
@@ -110,7 +117,7 @@ div {
 }
 .top-navigation .links li {
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 3rem;
 }
 .top-navigation .links .active {
     color: #4c5058;
@@ -139,16 +146,13 @@ div {
     background-size: cover;
     height: 45.938rem;
     overflow: auto;
-
 }
 .introduction h1,
 .introduction h3 {
     color: white;
     text-align: center;
     font-weight: 300;
-    font-family: 'Roboto', sans-serif;
 }
-.content h1 h3 {  font-family: 'Roboto', sans-serif;}
 .introduction h1 {
     margin-top: 17.5rem;
     font-size: 3.125rem;
@@ -194,7 +198,38 @@ button:hover {
     cursor: pointer;
 }
 
+/***** Middle Section *****************/
+section.middle {background-color:white;
+                overflow:hidden;
+                padding-bottom:10em;
+   }
 
+.wrapper     { width:60%;
+               margin: 0 auto;
+              background-color:white;}
+
+.middle-pics >  li { display:inline-block;
+                     width:33.33333333333333%; 
+                     float:left;
+                     text-align:center;
+                     background-color:white;
+                     font-weight: 200px;
+                     }                
+.wrapper h1,
+.wrapper h3 {
+    text-align: center;
+    font-weight: 300;
+}
+.wrapper h1 {
+    margin-top: 14.5rem;
+    font-size: 3.125rem;
+    padding-bottom: 4rem;
+}
+.wrapper h3 {
+    margin-top: 3rem;
+    font-size: 2rem;
+    font-weight: 400;
+    
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -230,6 +265,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
   font-family:roboto;
+  
 }
 ol, ul {
 	list-style: none;
@@ -252,11 +288,16 @@ table {
 /* Navigation Section */
 .top-navigation {
     background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;            
+
+
 }
 .top-navigation > .content {
     margin: 0 auto;
-    width: 970px;
-    height: 70px;
+    width: 70%;
+    height: 20%;
 }
 .top-navigation .logo {
     height: 70px;
@@ -286,12 +327,13 @@ div {
     color: #4c5058;
   font-weight: 600;}
 
-  .top-navigation li a {font-family: 'Roboto', sans-:                 ;serif; 
+  .top-navigation li a {font-family: 'Roboto', sans-:                                               ;serif; 
                           font-size: 16px; 
                           color: #838994; 
                           letter-spacing: 0.03em;
                           list-style:none;
                           text-decoration: none;}
+
 .top-navigation a:hover { color:black;}
     
 
@@ -307,7 +349,7 @@ div {
 }
 .top-navigation .links li {
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 3rem;
 }
 .top-navigation .links .active {
     color: #4c5058;
@@ -342,7 +384,6 @@ div {
     color: white;
     text-align: center;
     font-weight: 300;
-   	font-family: 'Roboto', sans-serif:  
 }
 .introduction h1 {
     margin-top: 17.5rem;
@@ -389,4 +430,36 @@ button:hover {
     cursor: pointer;
 }
 
+/***** Middle Section *****************/
+section.middle {background-color:white;
+                overflow:hidden;
+                padding-bottom:10em;
+   }
 
+.wrapper     { width:60%;
+               margin: 0 auto;
+              background-color:white;}
+
+.middle-pics >  li { display:inline-block;
+                     width:33.33333333333333%; 
+                     float:left;
+                     text-align:center;
+                     background-color:white;
+                     font-weight: 200px;
+                     }                
+.wrapper h1,
+.wrapper h3 {
+    text-align: center;
+    font-weight: 300;
+}
+.wrapper h1 {
+    margin-top: 14.5rem;
+    font-size: 3.125rem;
+    padding-bottom: 4rem;
+}
+.wrapper h3 {
+    margin-top: 3rem;
+    font-size: 2rem;
+    font-weight: 400;
+    
+}
