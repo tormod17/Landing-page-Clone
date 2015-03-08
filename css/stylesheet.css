@@ -513,7 +513,7 @@ section.middle {background-color:white;
 /***********Footer Content*****************/
 
 footer { background-color:white;
-            padding-top:10em ;
+            padding-top:5em ;
             padding-bottom: 4em;}
 
 .footer h5 { padding-top:3em;}
@@ -523,12 +523,11 @@ footer { background-color:white;
 
 .icons li{ display:inline-block;
                 border-radius: 100%;
-                width: 2.5rem;
-                height: 2.5rem;
+                width: 1.8rem;
+                height: 1.8rem;
                 display: inline-block;
-                margin: 3rem;
+                margin: 1.25rem;
                 border: 1px solid #eaebec;
-                padding: 1rem 1rem;
                 text-align: center; }
 .social hr {
     border: 0;
