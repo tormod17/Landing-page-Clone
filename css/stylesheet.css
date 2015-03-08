@@ -230,6 +230,52 @@ section.middle {background-color:white;
     font-size: 2rem;
     font-weight: 400;
     
+}
+
+/***********Footer Content*****************/
+
+footer { background-color:white;
+            padding-top:10em ;
+            padding-bottom: 4em;}
+
+.footer h5 { padding-top:3em;}
+
+.content { text-align:center;
+            font-size:1.5em;}
+
+.icons li{ display:inline-block;
+                border-radius: 100%;
+                width: 2.5rem;
+                height: 2.5rem;
+                display: inline-block;
+                margin: 3rem;
+                border: 1px solid #eaebec;
+                padding: 1rem 1rem;
+                text-align: center; }
+.social hr {
+    border: 0;
+    border-top: 1px solid #eaebec;
+    margin:3em 10em;}
+
+
+.social .icons > li:hover {
+    cursor: pointer;
+}
+.social .twitter {
+    color: #55acee;
+}
+.social .facebook {
+    color: #4c66a4;
+}
+.social .instagram {
+    color: #3f729b;
+}
+.social .copy {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -463,3 +509,48 @@ section.middle {background-color:white;
     font-weight: 400;
     
 }
+
+/***********Footer Content*****************/
+
+footer { background-color:white;
+            padding-top:10em ;
+            padding-bottom: 4em;}
+
+.footer h5 { padding-top:3em;}
+
+.content { text-align:center;
+            font-size:1.5em;}
+
+.icons li{ display:inline-block;
+                border-radius: 100%;
+                width: 2.5rem;
+                height: 2.5rem;
+                display: inline-block;
+                margin: 3rem;
+                border: 1px solid #eaebec;
+                padding: 1rem 1rem;
+                text-align: center; }
+.social hr {
+    border: 0;
+    border-top: 1px solid #eaebec;
+    margin:3em 10em;}
+
+
+.social .icons > li:hover {
+    cursor: pointer;
+}
+.social .twitter {
+    color: #55acee;
+}
+.social .facebook {
+    color: #4c66a4;
+}
+.social .instagram {
+    color: #3f729b;
+}
+.social .copy {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;
+}
+
